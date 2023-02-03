@@ -19,7 +19,7 @@ export function ContactForm() {
 		<>
 			<div className="space-y-1">
 				<h2 className="font-title text-lg font-bold">Let's talk</h2>
-				<p>Drop me a message with the form below, I'll get back to the non-spam</p>
+				<p>Drop me a message with the form below, I'll get back to the emails that are not spam...</p>
 			</div>
 
 			<form
@@ -55,7 +55,7 @@ export function ContactForm() {
 				className="space-y-2 [&>label]:block [&_input]:rounded-md [&_textarea]:rounded-md"
 			>
 				<label htmlFor="email">
-					<input type="email" name="email" id="email" required placeholder="hi@alistair.sh" className="w-full" />
+					<input type="email" name="email" id="email" required placeholder="mtheman@hot-shot.com" className="w-full" />
 				</label>
 
 				<label htmlFor="body">

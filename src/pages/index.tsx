@@ -94,12 +94,12 @@ export default function Home(props: Props) {
 						</h1>
 
 						<p className="text-center text-pink-800 dark:text-pink-300/95 dark:text-glow-pink-500/50 md:text-left">
-							{age} y/o full stack TypeScript engineer 🪄
+							{age} y/o proxy maker 🪄
 						</p>
 
 						<p className="text-center text-pink-800 dark:text-pink-300/80 dark:text-glow-pink-500/30 md:text-left">
-							<Link href="https://alistair.blog" target="_blank" rel="noopener noreferrer">
-								blog ↗️
+							<Link href="" target="_blank" rel="noopener noreferrer">
+								blog (not up rn) ↗️
 							</Link>
 						</p>
 					</div>
@@ -149,7 +149,7 @@ export default function Home(props: Props) {
 
 			<CardHoverEffect className="col-span-3 h-full md:col-span-3">
 				<Link
-					href="https://github.com/alii"
+					href="https://github.com/Mtheman25"
 					target="_blank"
 					rel="noopener noreferrer"
 					className={clsx(
@@ -178,7 +178,7 @@ export default function Home(props: Props) {
 					<span className="space-y-0.5 px-6 pb-6">
 						<span className="block font-title font-bold">github</span>
 
-						<span className="block text-sm">my open source work &amp; contributions</span>
+						<span className="block text-sm">my work &amp; contributions</span>
 					</span>
 				</Link>
 			</CardHoverEffect>
@@ -324,17 +324,17 @@ export default function Home(props: Props) {
 				</h2>
 
 				<p>
-					My name is alistair, I'm a software engineer from the United Kingdom. I've been programming for as long as I
-					can remember, and I'm currently spending my time with the wonderful people at{' '}
-					<Link className="underline" href="https://hop.io">
-						Hop
+					My name is Mtheman, and I'm a proxy developer from the United States. I've been programming for as long as I
+					can remember, and I'm currently spending my time creating{' '}
+					<Link className="underline" href="https://site.mathrey.wiki/">
+						proxies!
 					</Link>
 					.
 				</p>
 
 				<p>
-					Beyond programming, I'm really interested in music production, and you can often find me spending time messing
-					with DJ decks and my Maschine.
+					Beyond programming, I'm really interested in listening to music, and just messing
+					around with my pc.
 				</p>
 			</div>
 

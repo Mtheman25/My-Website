@@ -43,7 +43,7 @@ function Night({time}: {time: Date}) {
 					{UKTimeFormatter.format(time)}
 				</h2>
 
-				<p className={clsx('text-xs font-light', 'text-glow-sky-900 dark:text-glow-sky-500')}>in the uk</p>
+				<p className={clsx('text-xs font-light', 'text-glow-sky-900 dark:text-glow-sky-500')}>in the us</p>
 			</div>
 		</div>
 	);
@@ -59,7 +59,7 @@ function Day({time}: {time: Date}) {
 						<p
 							className={clsx('text-center text-xs font-light', 'text-white text-glow-sky-900 dark:text-glow-sky-500')}
 						>
-							in the uk
+							in the us
 						</p>
 					</div>
 				</div>
