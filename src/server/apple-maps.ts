@@ -1,4 +1,4 @@
-wimport jwa from 'jwa';
+import jwa from 'jwa';
 import {env} from './env';
 
 const es256 = jwa('ES256');
