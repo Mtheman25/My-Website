@@ -1,7 +1,7 @@
-import {useEffect, useRef, useState} from 'react';
-import {UKTimeFormatter, daysUntilBirthday} from '../utils/constants';
 import clsx from 'clsx';
 import {motion} from 'framer-motion';
+import {useEffect, useRef, useState} from 'react';
+import {daysUntilBirthday, UKTimeFormatter} from '../utils/constants';
 
 function Night({time}: {time: Date}) {
 	const canvasRef = useRef<HTMLCanvasElement | null>(null);
@@ -103,7 +103,7 @@ function Day({time}: {time: Date}) {
 export function Time() {
 	const [time, setTime] = useState(() => new Date());
 
-	const isNight = time.getHours() >= 15 || time.getHours() < 6;
+	const isNight = time.getHours() >= 17 || time.getHours() < 6;
 
 	useEffect(() => {
 		const interval = setInterval(() => {
