@@ -42,7 +42,6 @@ export const revalidate = 60;
 
 export interface Props {
 	lanyard: Data;
-	map: string;
 	location: string;
 }
 
