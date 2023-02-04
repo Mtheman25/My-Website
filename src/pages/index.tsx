@@ -34,7 +34,6 @@ import {Time} from '../components/time';
 import {useUpdatingLanyard} from '../hooks/lanyard';
 import matrix from '../images/matrix.gif';
 import me from '../images/me.jpg';
-import {getMapURL} from '../server/apple-maps';
 import {env} from '../server/env';
 import {age, discordId} from '../utils/constants';
 import {formatList} from '../utils/lists';
@@ -58,12 +57,9 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 
 	const location = lanyard.data.kv.location ?? env.DEFAULT_LOCATION;
 
-	const map = getMapURL(location);
-
 	return {
 		revalidate: 60,
 		props: {
-			map,
 			location,
 			lanyard: lanyard.data,
 		},
@@ -90,7 +86,7 @@ export default function Home(props: Props) {
 
 					<div className="space-y-1">
 						<h1 className="text-center font-title text-xl font-bold tracking-tighter text-pink-900 dark:text-pink-300 dark:text-glow-pink-500/50 md:text-left">
-							alistair smith
+							mtheman
 						</h1>
 
 						<p className="text-center text-pink-800 dark:text-pink-300/95 dark:text-glow-pink-500/50 md:text-left">
@@ -108,7 +104,7 @@ export default function Home(props: Props) {
 
 			<CardHoverEffect className="col-span-2 h-full">
 				<Link
-					href="https://twitter.com/alistaiir"
+					href="https://twitter.com/Mtheman0001"
 					target="_blank"
 					rel="noopener noreferrer"
 					className={clsx(
@@ -265,13 +261,7 @@ export default function Home(props: Props) {
 			</CardHoverEffect>
 
 			<div className="group relative col-span-3 flex h-full min-h-[13rem] flex-shrink-0 overflow-hidden rounded-2xl">
-				<Image
-					src={props.map}
-					className="bg-black"
-					fill
-					alt="A map locating roughly where I am right now"
-					style={{objectFit: 'cover'}}
-				/>
+		
 
 				<div className="absolute top-1/2 left-1/2 z-10 flex w-full flex-shrink-0 -translate-x-1/2 -translate-y-1/2 flex-col items-center space-y-2">
 					<div aria-hidden className="absolute translate-y-[14px]">
