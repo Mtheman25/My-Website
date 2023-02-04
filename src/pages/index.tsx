@@ -315,7 +315,7 @@ export default function Home(props: Props) {
 				<p>
 					My name is Mtheman, and I'm a proxy developer from the United States. I've been programming for as long as I
 					can remember, and I'm currently spending my time creating{' '}
-					<Link className="underline" href="https://site.mathrey.wiki/">
+					<Link className="underline" href="about:blank">
 						proxies!
 					</Link>
 					.
