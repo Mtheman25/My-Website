@@ -5,7 +5,6 @@
 	"author": "Mtheman <mtheman@hot-shot.com>",
 	"license": "Apache-2.0",
 	"private": true,
-	"packageManager": "yarn@3.4.1",
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
