@@ -1,5 +1,5 @@
 export const UKTimeFormatter = new Intl.DateTimeFormat(undefined, {
-	timeZone: 'Europe/London',
+	timeZone: 'United States/Washington',
 	hour: 'numeric',
 	minute: 'numeric',
 	hour12: false,
