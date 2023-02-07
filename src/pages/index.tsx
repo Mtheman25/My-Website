@@ -93,8 +93,8 @@ export default function Home(props: Props) {
 						</p>
 
 						<p className="text-center text-pink-800 dark:text-pink-300/80 dark:text-glow-pink-500/30 md:text-left">
-							<Link href="" target="_blank" rel="noopener noreferrer">
-								blog (not up rn) ↗️
+							<Link href="https://mtheman.airlinemeals.net/" target="_blank" rel="noopener noreferrer">
+								my other website for proxy enthusiasts ↗️
 							</Link>
 						</p>
 					</div>
