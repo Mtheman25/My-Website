@@ -38,6 +38,8 @@ import {env} from '../server/env';
 import {age, discordId} from '../utils/constants';
 import {formatList} from '../utils/lists';
 
+<script async src="https://arc.io/widget.min.js#MFNYDfDa"></script>
+
 export const revalidate = 60;
 
 export interface Props {
