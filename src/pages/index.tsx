@@ -316,9 +316,9 @@ export default function Home(props: Props) {
 
 				<p>
 					My name is Mtheman, and I'm a proxy developer from the United States. I've been programming for as long as I
-					can remember, and I'm currently spending my time creating{' '}
-					<Link className="underline" href="about:blank">
-						proxies!
+					can remember, and I'm currently spending my time creating my{' '}
+					<Link className="underline" href="https://discord.com/api/oauth2/authorize?client_id=1075560617760526427&permissions=8&scope=bot">
+						ChatGPT Bot!
 					</Link>
 					.
 				</p>
