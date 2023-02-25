@@ -105,7 +105,7 @@ export default function Home(props: Props) {
 
 			<CardHoverEffect className="col-span-2 h-full">
 				<Link
-					href="https://twitter.com/Mtheman0001"
+					href="https://twitter.com/Mtheman_"
 					target="_blank"
 					rel="noopener noreferrer"
 					className={clsx(
