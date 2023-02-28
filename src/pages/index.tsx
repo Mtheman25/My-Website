@@ -320,7 +320,7 @@ export default function Home(props: Props) {
 					<Link className="underline" href="https://discord.com/api/oauth2/authorize?client_id=1075560617760526427&permissions=8&scope=bot">
 						ChatGPT Bot!
 					</Link>
-					.
+					
 				</p>
 
 				<p>
