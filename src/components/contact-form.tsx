@@ -65,7 +65,7 @@ export function ContactForm() {
 				<Turnstile
 					options={{responseFieldName: 'turnstile'}}
 					style={{display: 'none'}}
-					siteKey="0x4AAAAAAABwxsgAijQAi5FS"
+					siteKey="6Ld9D7skAAAAAOs1QoJg_zKF2vYVwol1zy6rtyJl"
 				/>
 
 				<button
